@@ -84,8 +84,8 @@ void MultiChannelBlending(int Index, const std::string& ChannelName)
 
 	split(_Image, _Channels);
 
-	Mat _BlueChannelMat = _Channels.at(Index);
-	Mat _ROIBlue = _BlueChannelMat(Rect(0, 0, _Icon.cols, _Icon.rows));
+	Mat _ChannelMat = _Channels.at(Index);
+	Mat _ROIBlue = _ChannelMat(Rect(0, 0, _Icon.cols, _Icon.rows));
 	addWeighted(_ROIBlue, 1.0, _Icon, 0.5, 0, _ROIBlue);
 
 	merge(_Channels, _Image);
