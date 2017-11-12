@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{098E55F9-9141-49DC-A887-02616C9196FC}</ProjectGuid>
-    <RootNamespace>Demo01</RootNamespace>
+    <ProjectGuid>{E297A43A-9104-4FCE-8AE3-35CE14723766}</ProjectGuid>
+    <RootNamespace>Demo02</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -74,7 +74,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Demo01.cpp" />
+    <ClCompile Include="Demo02.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

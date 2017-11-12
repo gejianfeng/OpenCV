@@ -7,7 +7,7 @@
 
 using namespace cv;
 
-const int MAX_PATH_SIZE = 256;
+const int MAX_PATH_SIZE = 255;
 
 int main(int argc, char* argv[])
 {
