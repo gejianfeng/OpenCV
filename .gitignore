@@ -7,3 +7,10 @@ Demo/Demo.VC.VC.opendb
 *.filters
 Demo/Demo03/x64/
 Demo/Demo04/x64/
+OpenCVDemo/OpenCVDemo.VC.db
+OpenCVDemo/Demo01/x64/
+OpenCVDemo/Demo02/x64/
+OpenCVDemo/Demo03/x64/
+OpenCVDemo/x64/
+OpenCVDemo/Demo03/MixedImage.jpg
+OpenCVDemo/Demo02/AlphaImage.png
